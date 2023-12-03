@@ -1,0 +1,29 @@
+.teste{
+    color: blue;
+}
+preto {
+    fill: black;
+}
+svg {
+    /* fill: red; */
+    fill: white;
+  }
+svg:hover {
+    fill: red;
+  }
+  
+
+/* Estilos para o ícone de notificação na resolução 1024px - 768px */
+@media (max-width: 1024px) {
+    .teste{
+        color: red;
+        
+    }
+  }
+  
+  /* Estilos para os ícones centralizados verticalmente na resolução 1024px - 768px */
+  @media (max-width: 768px) {
+    .teste{
+        color: brown;
+    }
+  }
